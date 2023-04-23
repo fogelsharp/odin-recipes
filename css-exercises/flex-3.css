@@ -20,8 +20,9 @@ body {
 .block-left {
     display: flex;
     justify-content: left;
-    gap: 8px;
-    margin-right: 16px;
+    gap: 16px;
+    margin-left: 16px;
+    align-items: center;
 }
 
 .logo {
@@ -60,6 +61,7 @@ li {
 .block-right {
     display: flex;
     justify-content: right;
+    align-items: center;
     gap: 8px;
     margin-right: 16px;
 }
