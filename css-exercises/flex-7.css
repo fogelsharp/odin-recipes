@@ -95,10 +95,11 @@ li {
 }
 
 .footer {
- height: 72px;
+ display: flex;
+  eight: 72px;
  background: #eee;
  color: darkmagenta;
- padding: 0;
+ padding: 16px;
  margin: 0;
  border: 0;
  justify-content: center;
