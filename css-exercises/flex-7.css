@@ -55,9 +55,11 @@ div {
 }
 
 .sidebar {
+ display: flex;
  width: 2300px;
  background: royalblue;
  box-sizing: border-box;
+ align-items: stretch;
  padding: 16px;
  margin: 0;
  border: 0;  
