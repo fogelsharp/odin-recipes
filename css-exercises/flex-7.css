@@ -18,6 +18,7 @@ div {
   padding: 0;
   margin: 0;
   border: 0;
+  align-items: stretch;
 }
 
 .header {
@@ -35,6 +36,7 @@ div {
 .koerper {
  display: flex;
  flex-direction: row;
+ align-items: stretch;
  padding: 0;
  margin: 0;
  border: 0;
@@ -44,15 +46,39 @@ div {
  display: flex;
  flex-direction: row;
  flex-wrap: wrap;
- padding: 0;
+ padding: 32px;
  margin: 0;
  border: 0;  
 }
 
 .sidebar {
- width: 300px;
+ width: 3000px;
  background: royalblue;
  box-sizing: border-box;
+ padding: 16px;
+ margin: 0;
+ border: 0;  
+}
+
+a {
+  color: white;
+  font-size: 24px;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+ border: 0;  
+}
+
+li {
+ list-style-type: none;
  padding: 0;
  margin: 0;
  border: 0;  
