@@ -14,7 +14,7 @@ body {
 
 .koerper {
  display: flex;
- flex-direction: row;
+ flex-direction: column;
 }
 
 .karten {
