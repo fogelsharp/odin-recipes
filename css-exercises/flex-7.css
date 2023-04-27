@@ -53,6 +53,7 @@ div {
 
 .sidebar {
  width: 300px;
+ flex: 0;
  background: royalblue;
  box-sizing: border-box;
  padding: 16px;
